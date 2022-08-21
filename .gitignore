@@ -2,6 +2,7 @@ node_modules
 *.log
 .env
 *.config.js
+!example.config.js
 *.png
 *.jpg
 *.gif
