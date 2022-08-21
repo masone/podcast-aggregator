@@ -12,7 +12,7 @@ Create a `.env` file with the following environment variables (or set them manua
 - `NODE_OPTIONS` (optional) If you're on a machine with limited memory, consider setting
 `NODE_OPTIONS` to `--max-old-space-size=500` whereas 500 is a bit lower than your limit in MB. This forces the garbage collector before you run out of memory
 
-## Usage
+## Usage
 ```
 npm start
 ```
