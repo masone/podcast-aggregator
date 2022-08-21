@@ -1,6 +1,11 @@
 # Podcast aggregator
 Create podcasts from Youtube, Odysee and Soundcloud. Also supports creating a master feed by aggregating multiple sources. Integrates with S3 compatible object storage - no podcast hosting software required.
 
+Use cases:
+- Create a podcast for a Youtube or Soundcloud channel
+- Create a podcast for a curated list of Youtube videos or Soundcloud assets
+- Create a master feed that aggregates audio from multiple sources
+
 ## Configuration
 Create a `podcast.config.js` (see `example.config.js`) to set podcast metadata and configure the upload to S3. Ensure your bucket allows public access (or configure Cloudfront).
 
