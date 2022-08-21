@@ -17,6 +17,7 @@ const feed = new Podcast({
   feedUrl: website,
   siteUrl: website,
   author: author,
+  generator: "https://github.com/masone/podcast-aggregator",
 });
 
 await Promise.all(
